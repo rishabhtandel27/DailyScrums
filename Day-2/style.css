@@ -105,6 +105,17 @@ body {
     align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+.hero-section1 {
+    padding: 60px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #F1F5F9;
+}
+
+>>>>>>> 9428a20 (final commit of task 2)
 .hero-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -119,13 +130,29 @@ body {
 }
 
 .hero-text h1 {
+<<<<<<< HEAD
     font-size: 3.5rem;
+=======
+    font-size: 3.6rem;
+>>>>>>> 9428a20 (final commit of task 2)
     font-weight: 800;
     color: #1f2937;
     margin-bottom: 1.5rem;
     line-height: 1.1;
 }
 
+<<<<<<< HEAD
+=======
+.hero-text1 h1 {
+    font-size: 56px;
+    font-weight: 800;
+    color: #0F172A;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+
+>>>>>>> 9428a20 (final commit of task 2)
 .hero-text p {
     width: 600px;
     height: 116px;
@@ -135,6 +162,18 @@ body {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
+=======
+.hero-text1 p {
+    width: 600px;
+    height: 116px;
+    font-size: 18px;
+    color:#0F172A;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+>>>>>>> 9428a20 (final commit of task 2)
 .hero-buttons {
     display: flex;
     gap: 48px;
@@ -154,10 +193,33 @@ body {
     transition: background-color 0.3s ease;
 }
 
+<<<<<<< HEAD
+=======
+.btn-primary1 {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+}
+
+>>>>>>> 9428a20 (final commit of task 2)
 .btn-primary:hover {
     background-color: #4338ca;
 }
 
+<<<<<<< HEAD
+=======
+.btn-primary1:hover {
+    background-color: #4338ca;
+}
+
+>>>>>>> 9428a20 (final commit of task 2)
 .btn-secondary {
     background: none;
     border: none;
@@ -184,6 +246,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     width: 600px;
     height: 627.87px;
     background: url('Col.png') center/contain no-repeat;
@@ -193,6 +256,33 @@ body {
 
 .features-section {
     padding: 2rem 0;
+=======
+    width: 100%;
+    width: 600px;
+    height: 627.87px;
+    background: url('assets/Col.png') center/contain no-repeat;
+    background-size: contain;
+    z-index: 2;
+    aspect-ratio: 520 / 628;
+}
+
+.hero-image1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    background: url('assets/Group 50.png') center/contain no-repeat;
+    background-size: contain;
+    z-index: 2;
+    aspect-ratio: 520 / 628;
+}
+
+.features-section {
+    padding: 80px;
+>>>>>>> 9428a20 (final commit of task 2)
     background-color: #F1F5F9;
 }
 
@@ -266,6 +356,7 @@ body {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .highlight {
     background-color: #3b82f6;
     color: white;
@@ -274,6 +365,8 @@ body {
     font-size: 0.9rem;
 }
 
+=======
+>>>>>>> 9428a20 (final commit of task 2)
 
 .tools-section {
     padding: 80px;
@@ -301,7 +394,11 @@ body {
 
 .tools-description {
     font-size: 1rem;
+<<<<<<< HEAD
     color: #6b7280;
+=======
+    color: #0F172A;
+>>>>>>> 9428a20 (final commit of task 2)
     line-height: 1.6;
     white-space: nowrap;
     margin: 0 auto;
@@ -309,7 +406,11 @@ body {
 
 .tools-content {
     display: flex;
+<<<<<<< HEAD
     align-items: flex-start;
+=======
+    align-items: center; /* vertically center left and right columns */
+>>>>>>> 9428a20 (final commit of task 2)
     gap: 3rem;
     justify-content: center;
 }
@@ -320,7 +421,11 @@ body {
     gap: 0;
     flex: 1;
     max-width: 500px;
+<<<<<<< HEAD
     padding-top: 1rem;
+=======
+    justify-content: center; /* vertically center list items inside the right column */
+>>>>>>> 9428a20 (final commit of task 2)
 }
 
 .tool-item {
@@ -352,7 +457,11 @@ body {
 
 .tool-content p {
     font-size: 0.95rem;
+<<<<<<< HEAD
     color: #64748b;
+=======
+    color: #0F172A;
+>>>>>>> 9428a20 (final commit of task 2)
     line-height: 1.6;
     margin: 0;
 }
@@ -366,15 +475,43 @@ body {
     min-width: 400px;
 }
 
+<<<<<<< HEAD
 .phone-mockup-tools {
     width: 280px;
     height: 370px;
     background: url('Group 48.png') no-repeat center;
+=======
+.buttons-1 {
+    padding:40px;
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.phone-mockup-tools {
+    width: 600px;
+    height: 627px;
+    background: url('assets/Group 48.png') no-repeat center;
+>>>>>>> 9428a20 (final commit of task 2)
     background-size: contain;
     position: relative;
     z-index: 2;
 }
 
+<<<<<<< HEAD
+=======
+.phone-mockup-tools2 {
+    width: 640px;
+    height: 627px;
+    background: url('assets/Group 49.png') no-repeat center;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+}
+
+
+>>>>>>> 9428a20 (final commit of task 2)
 
 @media (max-width: 768px) {
     .nav-container {
@@ -469,7 +606,13 @@ body {
         height: 560px;
         margin: 0 auto;
     }
+<<<<<<< HEAD
 }/* Footer Styles */
+=======
+}
+
+/* Footer Styles */
+>>>>>>> 9428a20 (final commit of task 2)
 .footer {
     background-color: #ffffff;
     padding: 4rem 0 2rem 0;
@@ -597,3 +740,45 @@ body {
         padding: 3rem 0 1.5rem 0;
     }
 }
+<<<<<<< HEAD
+=======
+
+/* FAQ Section */
+.faq-section {
+    padding: 80px;
+    background: #ffffff;
+}
+.faq-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.faq-container h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #0f172a;
+    margin-bottom: 2rem;
+}
+.faq-list details {
+    border-top: 1px solid #e6e9ef;
+    padding: 1rem 0;
+}
+.faq-list summary {
+    list-style: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #2563eb;
+    padding: 1rem 0;
+    outline: none;
+}
+/* .faq-list summary::-webkit-details-marker { display:none; } */
+.faq-content {
+    color: #64748b;
+    padding: 0.5rem 0 1.25rem 0;
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .faq-container h2 { font-size: 1.8rem; }
+}
+>>>>>>> 9428a20 (final commit of task 2)
